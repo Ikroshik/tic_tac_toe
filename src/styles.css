@@ -87,3 +87,7 @@ body {
 .game-info {
   margin-left: 20px;
 }
+
+.winner {
+  background-color: yellow; /* Highlight the winning squares with a yellow background */
+}
