@@ -69,6 +69,7 @@ function Board({ xIsNext, squares, onPlay }) {
 
 // мейн функция для реакта(помечается как 'default'), котоая говорит реакту использовать её как "top-level component",
 export default function Game() {
+  сщты
   const [history, setHistory] = useState([Array(9).fill(null)]);
   const [currentMove, setCurrentMove] = useState(0);
   const [isAscending, setIsAscending] = useState(false); 
